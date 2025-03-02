@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    transition: background-color 0.3s ease-in-out;
+}
+
+}
+.content {
+    max-width: 800px; /* Batasi lebar konten */
+    margin: auto;
+    padding: 50px 20px;
+}
+h1 {
+    color: #0dcaf0; /* Warna biru Bootstrap */
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+p {
+    line-height: 1.8;
+    text-align: justify;
+    color: #ccc;
+}
+
+.fw-bold {
+    color: #0dcaf0;
+}

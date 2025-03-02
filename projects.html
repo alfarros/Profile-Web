@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black text-white">
+
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white fw-bold" href="index.html">Al Farros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <div class="container text-center mt-5 pt-5">
+            <div class="content text-center">
+                <p>
+                    Seperti yang saya bilang tadi, saya sudah mempelajari beberapa bahasa pemrograman dan teknologi seperti <span class="fw-bold ">C++</span>, <span class="fw-bold ">Java</span>, dan <span class="fw-bold ">Pemrograman Web.</span> Saya telah mengerjakan beberapa proyek yang mencerminkan perjalanan saya dalam dunia pemrograman. Salah satunya adalah Sistem Zodiak menggunakan Java, yang dapat menentukan zodiak berdasarkan tanggal lahir yang dimasukkan pengguna. Saya juga mengembangkan Algoritma Perpustakaan dengan C++, yang mencakup fitur pencatatan buku, peminjaman, dan pengembalian. Selain itu, saya membuat Biodata Sederhana dengan HTML, CSS, dan JavaScript, yang menampilkan informasi diri dengan tampilan interaktif. Saya terus berusaha meningkatkan keterampilan saya melalui proyek-proyek baru di berbagai bidang teknologi.
+                </p>
+            </div>
+        </div>
+        <h3 class="text text-center mb-3">Follow Me</h3>
+        <div class="d-flex justify-content-center">
+            <div class="shadow-lg" style="width: 100px; height: 100px;">
+                <a href="https://github.com/alfarros">
+                    <img src="github.png" alt="Profile Picture" class="w-100 h-100 object-fit-cover">
+                </a>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", function() {
+            document.body.style.opacity = "1";
+        });
+    
+        window.addEventListener("pageshow", function() {
+            document.body.style.opacity = "1"; 
+        });
+    
+        window.addEventListener("scroll", function() {
+            let navbar = document.getElementById("navbar");
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    </script>
+    
+    
+</body>
+</html>
